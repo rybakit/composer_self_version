@@ -1,0 +1,14 @@
+{
+    "name": "vendor/foobar",
+    "type": "library",
+    "require": {
+        "vendor/common": "self.version"
+    },
+    "minimum-stability": "dev",
+    "repositories": {
+        "local-libs": {
+            "type": "path",
+            "url": "../*"
+        }
+    }
+}

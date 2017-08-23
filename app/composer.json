@@ -1,0 +1,20 @@
+{
+    "name": "vendor/app",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "vendor/common": "self.version",
+        "vendor/foobar": "self.version"
+    },
+    "minimum-stability": "dev",
+    "repositories": {
+        "local-libs": {
+            "type": "path",
+            "url": "../lib/*"
+        }
+    }
+}
